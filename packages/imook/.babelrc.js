@@ -2,7 +2,7 @@
 module.exports = {
   presets: [
     ["@babel/preset-env",{
-      modules: false,
+      // modules: false,
       loose: true,
       targets: {
         browsers: "defaults",
