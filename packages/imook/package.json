@@ -18,7 +18,8 @@
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c",
-    "lint": "eslint . --ext js,ts,tsx"
+    "lint": "eslint . --ext js,ts,tsx",
+    "test": "jest --config=./.jest-config.json"
   },
   "husky": {
     "hooks": {
@@ -34,9 +35,17 @@
     "@babel/preset-typescript": "^7.12.1",
     "@commitlint/config-conventional": "^11.0.0",
     "@rollup/plugin-node-resolve": "^10.0.0",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/react-hooks": "^5.0.0",
     "@types/react": "^16.9.56",
     "@types/react-dom": "^16.9.9",
+    "@types/testing-library__jest-dom": "^5.9.5",
+    "babel-jest": "^26.6.3",
+    "core-js": "^3.8.2",
+    "jest": "^26.6.3",
     "react": "^17.0.1",
+    "regenerator-runtime": "^0.13.7",
     "rollup": "^2.33.2",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-copy": "^3.3.0",
